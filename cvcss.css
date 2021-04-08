@@ -1,0 +1,37 @@
+
+td.champs,td.periode,th
+{
+	border: 5px solid black;
+	padding: 10px;
+}
+td.periode
+{
+	width: 200px;
+	color: red;
+}
+table.formation
+{
+	width: 800px;
+	border: 5px solid black;
+	border-collapse: collapse;
+}
+td.area
+{
+	width: 400px;
+}
+td.champs
+{
+	 font-family: Arial;
+}
+th,h3,h2,td.periode
+{
+	font-family: 'Trebuchet MS', sans-serif;
+}
+p,li
+{
+	font-family: Georgia, serif;
+}
+p.foot
+{
+	text-align: center;
+}
