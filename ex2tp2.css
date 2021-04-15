@@ -1,0 +1,92 @@
+.container1,.head,.section,.container2,footer
+{
+	margin: 10px;
+}
+div
+{
+	text-align: center;
+	font-size: 120%;
+	padding: 50px;
+	box-sizing: border-box;
+}
+.head
+{
+	background-color:#194350; 
+	height:200px;
+}
+.section
+{
+	background-color: #ff8882;
+	height: 150px;
+}
+
+.container1,.container2
+{
+	padding: 10px;
+	overflow: auto;
+	box-sizing: border-box;
+}
+.box1
+{
+	background-color: #4b778d;
+}
+.box2
+{
+	background-color: #28b5b5;
+}
+.box3
+{
+	background-color: #8fd9a8;
+}
+.box4
+{
+	background-color: #d2e69c;
+}
+.box1,.box2,.box3,.box4
+{
+	height: 180px;
+	width: 25%;
+	float: left;
+	border:10px solid white;
+	box-sizing: border-box;
+	
+}
+.box5,.box6
+{
+	width: 50%;
+	height: 180px;
+	float: left;
+	border:10px solid white;
+	box-sizing: border-box;
+}
+.box5
+{
+	background-color: #98ddca;
+}
+.box6
+{
+	background-color: #d5ecc2;
+}
+.footer
+{
+	background-color: #ffe268;
+	height: 150px;
+}
+@media only screen and (max-width: 800px)
+{
+    .box5,.box6
+    {
+    	width: 100%;
+    }
+    .box1,.box2,.box3,.box4
+    {
+    	width: 50%;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    [class*="box"]
+    {
+    	width: 100%;
+    }
+}
